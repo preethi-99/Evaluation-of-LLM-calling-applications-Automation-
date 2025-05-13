@@ -10,7 +10,7 @@
 | Messenger         | 1460     | 1475      | 12.9          |
 | Copilot           | 1950     | 2164      | 282.36        |
 | ChatGPT Pro       | 870      |  930      | 47.43         |
-| Gemini Advanced   |          |           |               |
+| Gemini Advanced   | 140      |  200      | 47.43         |
 
 
 ## TTS Performance
