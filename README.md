@@ -1,12 +1,13 @@
 # LLM Based Calling Assistant Automation Experiments
 
 ## Overview
-This repository contains a Python-based tool to automate and evaluate call setup time in LLM-powered voice assistant apps. It also includes a method to analyze CPU and RAM usage during TTS and ASR operations using Android profiling tools.
+This repository contains a Python-based tool to automate and evaluate call setup time in LLM-powered voice assistant apps. The repository also contains a tool that  measures CPU and memory usage during in-app TTS and ASR operations using system-level monitoring via ADB.
 
 ## Features
 - Detects mic activation via ADB logcat or audio state polling.
 - Plays a pre-recorded audio (`hi_fixed.wav`) after a configurable delay.
 - Captures app responsiveness and system resource utilization.
+- Evaluates TTS and ASR performance by measuring CPU load and memory usage before,during and after execution.
 
 ##  Setup Instructions
 
