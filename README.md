@@ -59,7 +59,7 @@ This repository contains a Python-based tool to automate and evaluate call setup
    - After process ends
 
 ## Summary of Findings
-- **Gemini** showed the fastest average response (~655ms).
+- **Gemini Advanced** showed the fastest average response (~230ms).
 - **Copilot** had the highest delay (~2164ms).
 - **TTS** processing caused a temporary spike in system_server CPU usage (up to ~72%) and app CPU usage (~20%), with a small drop in free RAM.
 - **ASR** was slightly more demanding, with app CPU usage reaching ~21% and Google ASR service using ~57%.
